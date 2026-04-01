@@ -7,6 +7,12 @@
 
 ---
 
+## 📽️ System Showcase (Quick Tour)
+
+![Showcase Slideshow](screenshots/showcase_slideshow.gif)
+
+---
+
 ## 🚀 The Three-Frontend Ecosystem
 
 The platform consists of three seamlessly integrated applications, each serving a critical role in the customer lifecycle:
