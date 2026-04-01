@@ -38,12 +38,10 @@ This system features six end-to-end automations that solve the most common "leak
 ### 1. 🤖 AI-Powered Chatbot (24/7 Lead Qualification)
 *   **The Problem:** Leads go cold when they don't get an immediate response.
 *   **The Solution:** An OpenAI-driven chatbot that answers FAQs, qualifies the lead's needs, and captures contact details directly into the CRM.
-![AI Chatbot Interface](screenshots/demo_chatbot_open.png)
 
 ### 2. 📝 Automated Lead Capture & CRM Sync
 *   **The Problem:** Manual data entry leads to lost opportunities.
 *   **The Solution:** Every interaction—from contact forms to chatbot sessions—is instantly synced to a centralized PostgreSQL (Supabase) database.
-![Lead Management in CRM](screenshots/crm_leads.png)
 
 ### 3. 📞 Missed Call → SMS "Safety Net"
 *   **The Problem:** 80% of callers won't leave a voicemail and will call a competitor instead.
