@@ -97,22 +97,6 @@ sequenceDiagram
     CRM_Dashboard-->>Admin: New Lead Notification
 ```
 
----
-
-## 📽️ Live Demonstration (GIFs)
-
-*For the full interactive experience, please see the following animated demonstrations:*
-
-1.  **AI Instant Response:**
-    `![AI Chatbot GIF Placeholder](screenshots/ai_demo.gif)`
-    *(The chatbot qualifies a lead and confirms details in < 2 seconds.)*
-
-2.  **Real-time CRM Sync:**
-    `![CRM Sync GIF Placeholder](screenshots/crm_sync.gif)`
-    *(Watch a new lead appear in the dashboard instantly via Supabase subscriptions.)*
-
----
-
 ## 📊 Business Impact & Security
 *   **[ROI Math & Financial Impact](ROI_MODEL.md):** How this system adds $10k+ in monthly revenue.
 *   **[Security & Compliance Deep Dive](SECURITY.md):** How we protect client data and ensure PII privacy.
