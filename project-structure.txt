@@ -1,0 +1,33 @@
+Client-Capture-Automations/
+├── backend/
+│   └── automation-api/
+│       ├── main.py              # FastAPI Application & Routing
+│       ├── config.py            # Environment & API Key Management
+│       ├── requirements.txt     # Python Dependencies
+│       ├── models/              # Pydantic Data Models (Type Safety)
+│       │   ├── lead_model.py
+│       │   └── appointment_model.py
+│       ├── routers/             # API Route Handlers (Logical Segregation)
+│       │   ├── leads.py
+│       │   ├── chatbot.py
+│       │   ├── automation.py
+│       │   └── appointments.py
+│       └── services/            # Business Logic & External Integrations
+│           ├── chatbot_service.py    # OpenAI Integration & Conversation
+│           ├── email_service.py      # SMTP / Brevo / SendGrid Delivery
+│           ├── sms_service.py        # Twilio SMS & Sanitization Logic
+│           └── automation_service.py # Orchestration & Global Log Sync
+├── frontend/
+│   ├── showcase-site/           # Marketing/Explainer Landing Page
+│   │   ├── app/                 # Next.js App Router (14+)
+│   │   └── components/          # Reusable UI Components
+│   ├── demo-website/            # Simulated Client Business Website
+│   │   ├── app/                 # Real-time Interactions (Chat/Booking)
+│   │   └── components/          # Industry-Neutral UI Library
+│   └── crm-dashboard/           # Professional Business-Owner Dashboard
+│       ├── app/                 # Leads, Messages, Logs, Settings
+│       ├── components/          # High-Performance Data Tables
+│       └── context/             # React State & Real-time Subscriptions
+├── shared/                      # Shared Logic & Types (Cross-Platform)
+│   └── types/                   # Unified TypeScript Definitions
+└── README.md                    # Primary Showcase Documentation
