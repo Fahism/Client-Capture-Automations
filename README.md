@@ -18,15 +18,15 @@
 The platform consists of three seamlessly integrated applications, each serving a critical role in the customer lifecycle:
 
 1.  **The Showcase Hub:** A high-conversion landing page that explains the ROI of automation to prospective clients.
-    `https://showcase.your-agency.com`
+    
     ![Showcase Site Landing](screenshots/showcase_landing.png)
 
 2.  **The Demo Business Site (ABC Home Services):** A simulated, industry-neutral service business (Plumbing/HVAC) where users interact with live automations in real-time.
-    `https://demo.your-agency.com`
+    
     ![Demo Business Site](screenshots/demo_home.png)
 
 3.  **The CRM Command Center:** A professional dashboard for business owners to track every lead, conversation, and automated event as it happens.
-    `https://crm.your-agency.com`
+    
     ![CRM Dashboard](screenshots/crm_dashboard.png)
 
 ---
