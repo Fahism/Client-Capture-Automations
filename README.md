@@ -96,6 +96,7 @@ sequenceDiagram
     SMS_Gateway-->>Customer: "Thanks! We've received your booking."
     CRM_Dashboard-->>Admin: New Lead Notification
 ```
+---
 
 ## 📊 Business Impact & Security
 *   **[ROI Math & Financial Impact](ROI_MODEL.md):** How this system adds $10k+ in monthly revenue.
